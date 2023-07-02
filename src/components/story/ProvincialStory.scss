@@ -1,0 +1,43 @@
+.ProvincialStory {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.storyAbout1 {
+    border-radius: 30px;
+    background-color: white;
+    margin: 10px;
+    grid-column-start: 1;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .homeTextContainer {
+        width: 600px;
+        max-width: 100%;
+        text-align: center;
+    }
+    .titleText {
+        font-family: 'Arial';
+    }
+    .parText {
+        font-family: 'Arial';
+    }
+}
+
+.storyImg1 {
+    border-radius: 30px;
+    background-color: white;
+    margin: 10px;
+    grid-column-start: 2;
+    display: flex;
+    justify-content: center; // Added to center the image
+    align-items: center; // Added to center the image
+    height: 400px;
+    overflow: hidden;
+    .img {
+        width: 100%; // Makes sure the image takes full width of its parent
+        height: 100%; // Makes sure the image takes full height of its parent
+        object-fit: cover; // Covers the whole area of parent, cropping as needed
+    }
+}

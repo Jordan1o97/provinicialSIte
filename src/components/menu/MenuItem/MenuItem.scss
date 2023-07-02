@@ -1,0 +1,29 @@
+.menuItem {
+}
+
+.menuItemHeader {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.menuItemTitle {
+    grid-column-start: 1;
+    text-align: left;
+    margin-left: 25px;
+    font-family: 'Arial';
+}
+
+.menuItemPrice {
+    grid-column-start: 2;
+    text-align: left;
+    margin-right: 25px;
+    margin-left: 75px;
+    font-family: 'Arial';
+}
+
+.menuItemDescription {
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 50px;
+    font-family: 'Arial';
+}

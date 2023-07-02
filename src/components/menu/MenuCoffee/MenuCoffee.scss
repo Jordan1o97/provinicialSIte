@@ -1,0 +1,48 @@
+.menuCoffee {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 650px;
+}
+
+.menuCoffeeMenu {
+    grid-column-start: 1;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 10px;
+
+    .menuTitle {
+        text-align: center;
+        font-family: Arial;
+    }
+
+    .menuItems {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 10px;
+
+        .menuCol1 {
+            grid-column-start: 1;
+        }
+        .menuCol2{
+            grid-column-start: 2;
+        }
+    }
+}
+
+.menuCoffeeImg1 {
+    border-radius: 30px;
+    background-color: white;
+    margin: 10px;
+    grid-column-start: 2;
+    display: flex;
+    justify-content: center; // Added to center the image
+    align-items: center; // Added to center the image
+    overflow: hidden;
+    .img {
+        width: 100%; // Makes sure the image takes full width of its parent
+        height: 100%; // Makes sure the image takes full height of its parent
+        object-fit: cover; // Covers the whole area of parent, cropping as needed
+    }
+}
+

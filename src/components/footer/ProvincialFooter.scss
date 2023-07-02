@@ -1,0 +1,57 @@
+.ProvincialFooter {
+    border-radius: 30px;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .footerText {
+        font-family: 'Arial';
+        font-size: large;
+    }
+
+    .footerTitle {
+        font-family: 'Arial';
+    }
+  
+    .social {
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+  
+      .social-icon {
+        margin: 0 10px;
+        font-size: 24px;
+        color: #000;
+      }
+    }
+
+    form {
+        width: 100%;
+        max-width: 300px;
+  
+        .ant-form-item {
+            margin-bottom: 15px;
+        }
+
+        .ant-input {
+            height: 40px;
+        }
+
+        .ant-input-textarea {
+            resize: vertical;
+        }
+    }
+
+    button {
+        background-color: black;
+        color: white;
+        border: none;
+
+        &:hover {
+            background-color: grey;
+        }
+    }
+}

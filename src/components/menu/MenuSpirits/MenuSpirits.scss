@@ -1,0 +1,363 @@
+.menuSpirits {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+    height: 2750px;
+}
+
+.menuVodkaMenu {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 10px;
+
+    .menuTitle {
+        text-align: center;
+        font-family: Arial;
+    }
+
+    .menuItems {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 10px;
+
+        .menuCol1 {
+            grid-column-start: 1;
+        }
+        .menuCol2{
+            grid-column-start: 2;
+        }
+    }
+}
+
+.menuFlavVodkaMenu {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 10px;
+
+    .menuTitle {
+        text-align: center;
+        font-family: Arial;
+    }
+
+    .menuItems {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 10px;
+
+        .menuCol1 {
+            grid-column-start: 1;
+        }
+        .menuCol2{
+            grid-column-start: 2;
+        }
+    }
+}
+
+.menuGinMenu {
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-row-end: 9;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 10px;
+
+    .menuTitle {
+        text-align: center;
+        font-family: Arial;
+    }
+
+    .menuItems {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 10px;
+
+        .menuCol1 {
+            grid-column-start: 1;
+        }
+        .menuCol2{
+            grid-column-start: 2;
+        }
+    }
+}
+
+.menuTequilaMenu {
+    grid-column-start: 2;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 10px;
+
+    .menuTitle {
+        text-align: center;
+        font-family: Arial;
+    }
+
+    .menuItems {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 10px;
+
+        .menuCol1 {
+            grid-column-start: 1;
+        }
+        .menuCol2{
+            grid-column-start: 2;
+        }
+    }
+}
+
+.menuRumMenu {
+    grid-column-start: 1;
+    grid-row-start: 9;
+    grid-row-end: 12;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 10px;
+
+    .menuTitle {
+        text-align: center;
+        font-family: Arial;
+    }
+
+    .menuItems {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 10px;
+
+        .menuCol1 {
+            grid-column-start: 1;
+        }
+        .menuCol2{
+            grid-column-start: 2;
+        }
+    }
+}
+
+.menuBourbonMenu {
+    grid-column-start: 2;
+    grid-row-start: 7;
+    grid-row-end: 11;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 10px;
+
+    .menuTitle {
+        text-align: center;
+        font-family: Arial;
+    }
+
+    .menuItems {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 10px;
+
+        .menuCol1 {
+            grid-column-start: 1;
+        }
+        .menuCol2{
+            grid-column-start: 2;
+        }
+    }
+}
+
+.menuCadWhiskyMenu {
+    grid-column-start: 1;
+    grid-row-start: 12;
+    grid-row-end: 15;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 10px;
+
+    .menuTitle {
+        text-align: center;
+        font-family: Arial;
+    }
+
+    .menuItems {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 10px;
+
+        .menuCol1 {
+            grid-column-start: 1;
+        }
+        .menuCol2{
+            grid-column-start: 2;
+        }
+    }
+}
+
+.menuCognacMenu {
+    grid-column-start: 2;
+    grid-row-start: 11;
+    grid-row-end: 14;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 10px;
+
+    .menuTitle {
+        text-align: center;
+        font-family: Arial;
+    }
+
+    .menuItems {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 10px;
+
+        .menuCol1 {
+            grid-column-start: 1;
+        }
+        .menuCol2{
+            grid-column-start: 2;
+        }
+    }
+}
+
+.menuMaltMenu {
+    grid-column-start: 1;
+    grid-row-start: 15;
+    grid-row-end: 19;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 10px;
+
+    .menuTitle {
+        text-align: center;
+        font-family: Arial;
+    }
+
+    .menuItems {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 10px;
+
+        .menuCol1 {
+            grid-column-start: 1;
+        }
+        .menuCol2{
+            grid-column-start: 2;
+        }
+    }
+}
+
+.menuIrishWhiskyMenu {
+    grid-column-start: 2;
+    grid-row-start: 14;
+    grid-row-end: 17;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 10px;
+
+    .menuTitle {
+        text-align: center;
+        font-family: Arial;
+    }
+
+    .menuItems {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 10px;
+
+        .menuCol1 {
+            grid-column-start: 1;
+        }
+        .menuCol2{
+            grid-column-start: 2;
+        }
+    }
+}
+
+.menuJapWhiskyMenu {
+    grid-column-start: 1;
+    grid-row-start: 19;
+    grid-row-end: 21;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 10px;
+
+    .menuTitle {
+        text-align: center;
+        font-family: Arial;
+    }
+
+    .menuItems {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 10px;
+
+        .menuCol1 {
+            grid-column-start: 1;
+        }
+        .menuCol2{
+            grid-column-start: 2;
+        }
+    }
+}
+
+.menuLiqueursMenu {
+    grid-column-start: 2;
+    grid-row-start: 17;
+    grid-row-end: 21;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 10px;
+
+    .menuTitle {
+        text-align: center;
+        font-family: Arial;
+    }
+
+    .menuItems {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 10px;
+
+        .menuCol1 {
+            grid-column-start: 1;
+        }
+        .menuCol2{
+            grid-column-start: 2;
+        }
+    }
+}
+
+.menuWineImg1 {
+    border-radius: 30px;
+    background-color: white;
+    margin: 10px;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    display: flex;
+    justify-content: center; // Added to center the image
+    align-items: center; // Added to center the image
+    overflow: hidden;
+    .img {
+        width: 100%; // Makes sure the image takes full width of its parent
+        height: 100%; // Makes sure the image takes full height of its parent
+        object-fit: cover; // Covers the whole area of parent, cropping as needed
+    }
+}
+

@@ -1,25 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ProvincalHeader from './components/header/ProvincalHeader';
+import Home from './components/home/ProvincalHome';
+import Story from './components/story/ProvincalStory';
+import Menu from './components/menu/ProvincalMenu';
+import Shop from './components/shop/ProvincalShop';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ProvincialFooter from './components/footer/ProvincialFooter';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <ProvincalHeader></ProvincalHeader>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/story" element={<Story />} />
+          <Route path="menu/*" element={<Menu />} />
+          <Route path="/shop" element={<Shop />} />
+        </Routes>
+        <ProvincialFooter></ProvincialFooter>
+      </div>
+    </Router>
   );
 }
 
